@@ -1,6 +1,6 @@
 # etc
-gitignore/
-dist/
+test/gitignore/
+test/dist/
 
 # Node.js
 node_modules/
