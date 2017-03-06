@@ -15,5 +15,21 @@
   },
   "devDependencies": {
     "@honeo/test": "^1.0.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/honeo/node-web-ext.git"
+  },
+  "keywords": [
+    "web-ext",
+    "webextensions",
+    "wrap"
+  ],
+  "bugs": {
+    "url": "https://github.com/honeo/node-web-ext/issues"
+  },
+  "homepage": "https://github.com/honeo/node-web-ext#readme"
 }
