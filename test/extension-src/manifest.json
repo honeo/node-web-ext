@@ -1,0 +1,15 @@
+{
+    "author": "honeo",
+    "description": "web-extのNode.js APIテスト",
+    "manifest_version": 2,
+    "name": "test-web-extensions",
+    "version": "0.0.7",
+    "content_scripts": [{
+        "matches": ["*://*/*"],
+        "js": ["content-script.js"],
+        "run_at": "document_end"
+    }],
+    "background": {
+        "scripts": ["background.js"]
+    }
+}

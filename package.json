@@ -1,0 +1,19 @@
+{
+  "name": "node-web-ext",
+  "version": "1.0.0",
+  "description": "web-extをNode.js APIから扱う",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm update && cd ./test && node ./"
+  },
+  "author": "honeo",
+  "license": "MIT",
+  "dependencies": {
+    "@honeo/check": "^1.0.2",
+    "dargs-fork": "^1.0.0",
+    "web-ext": "^1.8.1"
+  },
+  "devDependencies": {
+    "@honeo/test": "^1.0.0"
+  }
+}

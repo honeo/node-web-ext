@@ -1,0 +1,12 @@
+# etc
+gitignore/
+dist/
+
+# Node.js
+node_modules/
+npm-debug.log
+
+# ChromeExtensions keyfile
+*.pem
+# Firefox WebExtensions id
+.web-extension-id
