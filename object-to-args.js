@@ -7,7 +7,7 @@
 		result: "-foo bar=\"123\" --hoge-fuga\"piyo\""
 */
 const dargsFork = require('dargs-fork');
-const {is, not} = require('@honeo/check');
+const {not} = require('@honeo/check');
 
 // obj => string
 function objectToArgs(obj){

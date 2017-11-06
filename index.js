@@ -1,5 +1,4 @@
 // Modules
-const {is, not} = require('@honeo/check');
 const objectToArgs = require('./object-to-args.js');
 const execPromise = require('./exec-promise.js');
 

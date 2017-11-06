@@ -2,12 +2,18 @@
 * [honeo/node-web-ext](https://github.com/honeo/node-web-ext)  
 * [node-web-ext](https://www.npmjs.com/package/node-web-ext)
 
+
+## Deprecated
+web-extのreadme.mdで[Using web-ext is NodeJS code](https://github.com/mozilla/web-ext#using-web-ext-is-nodejs-code)が公開されたため、今後はそっちを使おう。
+
+
 ## なにこれ
 [mozilla/web-ext](https://github.com/mozilla/web-ext)をNode.js APIから扱う。
 
+
 ## 使い方
 ```sh
-$ npm i -S node-web-ext
+$ npm i node-web-ext
 ```
 ```js
 const NodeWebExt = require('node-web-ext');
