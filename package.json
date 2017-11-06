@@ -1,6 +1,6 @@
 {
   "name": "node-web-ext",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "web-extをNode.js APIから扱う",
   "main": "index.js",
   "scripts": {
